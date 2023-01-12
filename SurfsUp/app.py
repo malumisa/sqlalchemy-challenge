@@ -121,7 +121,7 @@ def tobs():
 @app.route("/api/v1.0/trip/<start_date>/<end_date>")
 def trip1(start_date=None, end_date=None):
     # Calculate minimum, average and maximum temperatures for the range of dates starting with start date.
-    # If no end date is provided, the function defaults to 2017-08-23.
+   
 
     session = Session(engine)
 
