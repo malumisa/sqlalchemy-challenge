@@ -12,7 +12,7 @@ b.	temperature for a range of trip dates
 	 The SQLAlchemy automap_base() function to reflect tables into classes, and then save references to the classes named station and measurement.
 	 Link Python to the database by creating a SQLAlchemy session.
 
-###Precipitation Analysis
+### Precipitation Analysis
     Find the most recent date in the dataset.
     Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
     Select only the "date" and "prcp" values.
@@ -21,7 +21,7 @@ b.	temperature for a range of trip dates
     Plot the results by using the DataFrame plot method, as the following image shows:
     Use Pandas to print the summary statistics for the precipitation data.
 
- ###Station Analysis
+ ### Station Analysis
     Design a query to calculate the total number of stations in the dataset.
     Design a query to find the most-active stations (that is, the stations that have the most rows). To do so, complete the following steps:
     List the stations and observation counts in descending order.
@@ -33,19 +33,19 @@ b.	temperature for a range of trip dates
     Plot the results as a histogram with bins=12, 
     
     
-##Part 2: Design Your Climate App
+## Part 2: Design Your Climate App
 Designed a Flask API based on the queries that i just developed. To do so, I used Flask to create the following:
 
-•	/
-o	Home page
+•/
+### Home page
 •	/api/v1.0/precipitation
-o	Daily precipitation totals for last year
+### Daily precipitation totals for last year
 •	/api/v1.0/stations
-o	Active weather stations
+### Active weather stations
 •	/api/v1.0/tobs
-o	Daily temperature observations for the WAIHEE weather station
+### Daily temperature observations 
 •	/api/v1.0/trip/yyyy-mm-dd
-o	Min, average & max temperatures for the range beginning with the provided start date through 08/23/17
+### Min, average & max temperatures for the range beginning with the provided start date through 08/23/17
 •	/api/v1.0/trip/yyyy-mm-dd/yyyy-mm-dd
-o	Min, average & max temperatures for the range beginning with the provided start - end date range
+### Min, average & max temperatures for the range beginning with the provided start - end date range
 
