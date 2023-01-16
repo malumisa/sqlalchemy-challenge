@@ -5,12 +5,12 @@ In this scenario i have decided to treat myself to a long holiday vacation in Ho
 ## Part 1: Analyze and Explore the Climate Data
 In this section, i used Python and SQLAlchemy to do a basic data exploration and analysis of an SQL climate database. Specifically, there is application of  SQLAlchemy ORM queries, Pandas, and Matplotlib. I completed the following steps:
 
-a.	summarized local precipitation for the weather stations
-b.	temperature for a range of trip dates
+##### a.	summarized local precipitation for the weather stations
+##### b.	temperature for a range of trip dates
 
-#### Made use of the SQLAlchemy create_engine() function to connect to the SQLite database (Hawaii.sqlite).
-#### The SQLAlchemy automap_base() function to reflect tables into classes, and then save references to the classes named station and measurement.
-#### Link Python to the database by creating a SQLAlchemy session.
+##### Made use of the SQLAlchemy create_engine() function to connect to the SQLite database (Hawaii.sqlite).
+##### The SQLAlchemy automap_base() function to reflect tables into classes, and then save references to the classes named station and measurement.
+##### Link Python to the database by creating a SQLAlchemy session.
 
 ### Precipitation Analysis
     Find the most recent date in the dataset.
@@ -37,15 +37,15 @@ b.	temperature for a range of trip dates
 Designed a Flask API based on the queries that i just developed. To do so, I used Flask to create the following:
 
 •/
-### Home page
+#### Home page
 •	/api/v1.0/precipitation
-### Daily precipitation totals for last year
+#### Daily precipitation totals for last year
 •	/api/v1.0/stations
-### Active weather stations
+#### Active weather stations
 •	/api/v1.0/tobs
-### Daily temperature observations 
+#### Daily temperature observations 
 •	/api/v1.0/trip/yyyy-mm-dd
-### Min, average & max temperatures for the range beginning with the provided start date through 08/23/17
+#### Min, average & max temperatures for the range beginning with the provided start date through 08/23/17
 •	/api/v1.0/trip/yyyy-mm-dd/yyyy-mm-dd
-### Min, average & max temperatures for the range beginning with the provided start - end date range
+#### Min, average & max temperatures for the range beginning with the provided start - end date range
 
