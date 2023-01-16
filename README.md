@@ -1,8 +1,8 @@
-#sqlalchemy-challenge
+# sqlalchemy-challenge
 
 In this scenario i have decided to treat myself to a long holiday vacation in Honolulu, Hawaii. To help with my trip planning, i decide to do a climate analysis about the area. The following sections outline the steps that i took to accomplish this task.
 
-##Part 1: Analyze and Explore the Climate Data
+## Part 1: Analyze and Explore the Climate Data
 In this section, i used Python and SQLAlchemy to do a basic data exploration and analysis of an SQL climate database. Specifically, there is application of  SQLAlchemy ORM queries, Pandas, and Matplotlib. I completed the following steps:
 
 a.	summarized local precipitation for the weather stations
