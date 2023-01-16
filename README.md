@@ -8,9 +8,9 @@ In this section, i used Python and SQLAlchemy to do a basic data exploration and
 a.	summarized local precipitation for the weather stations
 b.	temperature for a range of trip dates
 
-	Made use of the SQLAlchemy create_engine() function to connect to the SQLite database (Hawaii.sqlite).
-	 The SQLAlchemy automap_base() function to reflect tables into classes, and then save references to the classes named station and measurement.
-	 Link Python to the database by creating a SQLAlchemy session.
+#### Made use of the SQLAlchemy create_engine() function to connect to the SQLite database (Hawaii.sqlite).
+#### The SQLAlchemy automap_base() function to reflect tables into classes, and then save references to the classes named station and measurement.
+#### Link Python to the database by creating a SQLAlchemy session.
 
 ### Precipitation Analysis
     Find the most recent date in the dataset.
